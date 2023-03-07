@@ -1,13 +1,18 @@
-import Home from './pages/home/Home'
-import './App.css';
+import React from 'react';
+import { HashRouter as Router, Route } from 'react-router-dom';
+import Home from './pages/Home';
 import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
-     <Home />
-    </div>
+      <div>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+      </div>
+    </Router>
   );
 }
 
