@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.brandContainer {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin-left: 10px;
+}
+
+.brandName {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.brandText {
+  font-size: 25px;
+  margin-bottom: 6px;
+}
+
+.linkText {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navLinksMobile {
+  display: flex;
+  flex-direction: column;
+}
+
