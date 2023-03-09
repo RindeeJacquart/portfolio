@@ -20,3 +20,9 @@ p {
 ul {
   list-style: none;
 }
+
+@media (max-width: 767px){
+  body {
+    margin: 0 20px;
+  }
+}
