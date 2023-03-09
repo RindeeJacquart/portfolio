@@ -1,20 +1,16 @@
 .page {
-  width: 100%;
+  width: 100vw;
 }
 /* Hero */
-.imageContainer {
-  width: 100%;
-}
-
 .imageContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  height: 457px;
+  height: 427px;
   width: 100%;
   background: url('../../assets/portfolio/jaguarHome.jpg');
-  background-size: 43%;
+  background-size: auto 100%;
   background-repeat: no-repeat, no-repeat;
   background-position: top 0 left 50%;
 }
@@ -60,7 +56,7 @@
 
 .links {
   font-size: 24px;
-  color: #007474;
+  color: #00a8a8;
   text-align: center;
 }
 
@@ -98,6 +94,37 @@
   border-radius: 4px;
 }
 
+@media (max-width: 920px){
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    width: 100%;
+    background: url('../../assets/portfolio/jaguarHome.jpg');
+    background-size: 75%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 50%;
+  }
+
+  .imageTextWrapper {
+    text-align: center;
+    margin-right: 10%;
+    width: 50%;
+  }
+  
+  .titleText {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .subtext {
+    text-align: right;
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px){
   .contentWrapper {
     display: grid;
@@ -105,6 +132,19 @@
     grid-template-rows: auto auto auto;
     grid-gap: 87px;
     margin-top: 40px;
+  }
+
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    background: url('../../assets/portfolio/jaguarHome.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 50%;
   }
 
   .imageTextWrapper {

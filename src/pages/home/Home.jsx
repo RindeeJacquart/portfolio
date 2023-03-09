@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 import atHome from '../../assets/portfolio/atmosfireHome.png';
 import './home.css';
 import BrettLogo from '../../assets/portfolio/BrettLogo.png';
@@ -11,7 +9,7 @@ export default function Home() {
 
 
   return (
-    <section className='page'>
+    <section className='page'>   
       <div className='imageContainer'>
         <div className='imageTextWrapper'>
           <h2 className='titleText'>Digital Jaguar Media</h2>
