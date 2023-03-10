@@ -15,7 +15,7 @@ export function useIsMobile(query) {
     media.addEventListener('change', listener);
 
     return () => media.removeEventListener('change', listener);
-  }, [matches, query]);
+  }, [matches, querySize]);
 
   return matches;
 }
