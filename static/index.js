@@ -1,15 +1,15 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './pages/Layout/Layout';
-import Home from './pages/home/Home';
-import Business from './pages/business/Business';
+import Layout from '../src/pages/Layout/Layout';
+import Home from '../src/pages/home/Home';
+import Business from '../src/pages/business/Business';
 import './App.css';
-import Websites from "./pages/Websites/Websites";
-import OtherDesigns from "./pages/other-designs/OtherDesigns";
+import Websites from "../src/pages/Websites/Websites";
+import OtherDesigns from "../src/pages/other-designs/OtherDesigns";
 
 export default function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
       <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
