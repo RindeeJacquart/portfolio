@@ -1,7 +1,6 @@
 {
   "name": "rindee-porfolio",
-  "version": "0.1.0",
-  "homepage": "https://rindeejacquart.github.io/portfolio",
+  "version": "0.1.0", 
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
