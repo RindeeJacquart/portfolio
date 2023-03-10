@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b68900c3.css",
+    "main.js": "/static/js/main.d4e1416c.js",
+    "static/media/atmosfireHome.png": "/static/media/atmosfireHome.94bb0e2d404a88e28ee6.png",
+    "static/media/ColterLg.svg": "/static/media/ColterLg.c89bd23b9a9d378cb545eac08ba0089e.svg",
+    "static/media/jaguarBusiness.jpg": "/static/media/jaguarBusiness.2858346f5a5348ffe6d9.jpg",
+    "static/media/birds.png": "/static/media/birds.7fe2f1da9fd44aefc134.png",
+    "static/media/jaguarHome.jpg": "/static/media/jaguarHome.3ce64176297a55ff1ae8.jpg",
+    "static/media/BrettTruck2.jpg": "/static/media/BrettTruck2.a0c65dc14cdc41bbbe4c.jpg",
+    "static/media/BrettTruck1.jpg": "/static/media/BrettTruck1.948430fc02ceda3d10d7.jpg",
+    "static/media/BrettLogos.svg": "/static/media/BrettLogos.4089aa027306ab275f68ee99ad62dcc9.svg",
+    "static/media/ColterSm.svg": "/static/media/ColterSm.9b8b98e1dd199f70d5aea6f46423e56d.svg",
+    "static/media/Colter.png": "/static/media/Colter.1c4715240f321e7a2a75.png",
+    "static/media/JagStagDigital.png": "/static/media/JagStagDigital.af5db71dfdc469a6df12.png",
+    "static/media/BrettLogo.png": "/static/media/BrettLogo.de54934a53ebf2f88197.png",
+    "static/media/Bonj.svg": "/static/media/Bonj.400d761fd8258e048111f478e6d95384.svg",
+    "static/media/Kraft.svg": "/static/media/Kraft.f18f82b2e9b45cf00877c655946e9ca2.svg",
+    "index.html": "/index.html",
+    "static/media/menuIcon.svg": "/static/media/menuIcon.1bb87e1dfe9c23346ce986e4bf2719c4.svg",
+    "main.b68900c3.css.map": "/static/css/main.b68900c3.css.map",
+    "main.d4e1416c.js.map": "/static/js/main.d4e1416c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b68900c3.css",
+    "static/js/main.d4e1416c.js"
+  ]
+}
